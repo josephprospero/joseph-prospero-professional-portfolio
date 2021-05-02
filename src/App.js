@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About'
 import Nav from './components/Nav'
 import Portfolio from './components/Portfolio'
+import ContactForm from './components/Contact'
 
 function App() {
 
@@ -15,18 +16,28 @@ function App() {
   return (
     <div className="App">
       <Nav contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
-          aboutSelected={aboutSelected}
-          setAboutSelected={setAboutSelected}
-          portfolioSelected={portfolioSelected}
-          setPortfolioSelected={setPortfolioSelected}
-          resumeSelected={resumeSelected}
-          setResumeSelected={setResumeSelected}
-        >
+        setContactSelected={setContactSelected}
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
+      >
       </Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
+        {aboutSelected
+          ? (<><About></About></>)
+          : (<></>)
+        }
+        {portfolioSelected
+          ? (<><Portfolio></Portfolio></>)
+          : (<></>)
+        }
+        {contactSelected
+          ? (<><ContactForm></ContactForm></>)
+          : (<></>)
+        }
       </main>
     </div>
 

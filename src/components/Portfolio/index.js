@@ -1,12 +1,42 @@
 import React from 'react';
 
 function Portfolio() {
+    const [project] = useState([
+        {
+            name: 'Test Project',
+            link: 'www.google.com',
+            imgId: 1
+        },
+        {
+            name: 'Test Project',
+            link: 'www.google.com',
+            imgId: 1
+        },
+        {
+            name: 'Test Project',
+            link: 'www.google.com',
+            imgId: 1
+        }
+    ])
+
+    const projectList = project.map((project) =>
+        <li>
+            <h2>{project.name}</h2>
+            <a href={project.link} target='blank' rel='noreferrer'>
+                Link
+    </a>
+            <a href={project.link} target='blank' rel='noreferrer'>
+                GitHub Link
+    </a>
+        </li>
+    )
     return (
         <section>
-            <div>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-                </p>
+            <h1>Portfolio</h1>
+            <div className='flex-row'>
+                <ul>
+                    {projectList}
+                </ul>
             </div>
         </section>
     );
