@@ -6,16 +6,14 @@ import Nav from './components/Nav'
 function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
 
 
   return (
     <div className="App">
-      <main>
-        <Nav>
-          contactSelected={contactSelected}
+      <Nav contactSelected={contactSelected}
           setContactSelected={setContactSelected}
           aboutSelected={aboutSelected}
           setAboutSelected={setAboutSelected}
@@ -23,13 +21,14 @@ function App() {
           setPortfolioSelected={setPortfolioSelected}
           resumeSelected={resumeSelected}
           setResumeSelected={setResumeSelected}
-        </Nav>
+        >
+      </Nav>
+      <main>
         <About></About>
       </main>
     </div>
 
   );
-
 }
 
 export default App;
