@@ -15,7 +15,7 @@ function Nav(props) {
     return (
         <header className="flex-row px-1 navbar">
             <h2>
-                <a data-testid="link" href="/">
+                <a data-testid="link" href="https://josephprospero.github.io/professional-portfolio/">
                     <span role="img" aria-label="logo"> 🩸</span> J.R.C. Prospero
                 </a>
             </h2>
