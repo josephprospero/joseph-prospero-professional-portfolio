@@ -120,10 +120,6 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
-
 span[role="img"] {
   cursor: default;
 }
@@ -292,4 +288,64 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.navbar {
+  background-image: url(./assets/cover/navimage.jpg);
+  padding: 40px;
+}
+
+.project-background {
+  height: 15vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.project-1 {
+  background-image: url(./assets/images/bloc.png);
+}
+
+.project-2 {
+  background-image: url(./assets/images/budget.png);
+}
+
+.project-3 {
+  background-image: url(./assets/images/weatherdash.jpg);
+}
+
+.project-4 {
+  background-image: url(./assets/images/food-for-you.png);
+}
+
+.project-5 {
+  background-image: url(./assets/images/scheduler.jpeg);
+}
+
+.project-6 {
+  background-image: url(./assets/images/run-buddy.png);
+}
+
+.fill:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.project-title {
+  font-size: 48px;
+  line-height: 0.9;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #000000;
+  opacity: 1;
+}
+
+.project-background {
+  height: 15vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+  padding: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

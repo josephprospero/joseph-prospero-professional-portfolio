@@ -13,7 +13,7 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row px-1 navbar">
             <h2>
                 <a data-testid="link" href="/">
                     <span role="img" aria-label="logo"> 🩸</span> J.R.C. Prospero
