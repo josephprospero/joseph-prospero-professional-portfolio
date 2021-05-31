@@ -303,30 +303,6 @@ a {
   padding: 5px;
 }
 
-.project-1 {
-  background-image: url(./assets/images/bloc.png);
-}
-
-.project-2 {
-  background-image: url(./assets/images/budget.png);
-}
-
-.project-3 {
-  background-image: url(./assets/images/weatherdash.jpg);
-}
-
-.project-4 {
-  background-image: url(./assets/images/food-for-you.png);
-}
-
-.project-5 {
-  background-image: url(./assets/images/scheduler.jpeg);
-}
-
-.project-6 {
-  background-image: url(./assets/images/run-buddy.png);
-}
-
 .fill:hover {
   opacity: 0.8;
   transition: 0.3s;
