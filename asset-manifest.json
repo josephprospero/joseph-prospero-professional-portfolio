@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/professional-portfolio/static/css/main.89c4ba8d.chunk.css",
-    "main.js": "/professional-portfolio/static/js/main.5fa662d1.chunk.js",
-    "main.js.map": "/professional-portfolio/static/js/main.5fa662d1.chunk.js.map",
+    "main.css": "/professional-portfolio/static/css/main.a41c0133.chunk.css",
+    "main.js": "/professional-portfolio/static/js/main.ade65720.chunk.js",
+    "main.js.map": "/professional-portfolio/static/js/main.ade65720.chunk.js.map",
     "runtime-main.js": "/professional-portfolio/static/js/runtime-main.1f48865a.js",
     "runtime-main.js.map": "/professional-portfolio/static/js/runtime-main.1f48865a.js.map",
     "static/js/2.8090b405.chunk.js": "/professional-portfolio/static/js/2.8090b405.chunk.js",
@@ -10,15 +10,22 @@
     "static/js/3.8c5476db.chunk.js": "/professional-portfolio/static/js/3.8c5476db.chunk.js",
     "static/js/3.8c5476db.chunk.js.map": "/professional-portfolio/static/js/3.8c5476db.chunk.js.map",
     "index.html": "/professional-portfolio/index.html",
-    "static/css/main.89c4ba8d.chunk.css.map": "/professional-portfolio/static/css/main.89c4ba8d.chunk.css.map",
+    "static/css/main.a41c0133.chunk.css.map": "/professional-portfolio/static/css/main.a41c0133.chunk.css.map",
     "static/js/2.8090b405.chunk.js.LICENSE.txt": "/professional-portfolio/static/js/2.8090b405.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/professional-portfolio/static/media/weatherdash.ee3af1a7.jpg",
-    "static/media/cover-image.3595d08e.jpg": "/professional-portfolio/static/media/cover-image.3595d08e.jpg"
+    "static/media/bloc.dde5c536.png": "/professional-portfolio/static/media/bloc.dde5c536.png",
+    "static/media/bloc2.9d0aea00.png": "/professional-portfolio/static/media/bloc2.9d0aea00.png",
+    "static/media/budget.9315cd0e.png": "/professional-portfolio/static/media/budget.9315cd0e.png",
+    "static/media/cover-image.3595d08e.jpg": "/professional-portfolio/static/media/cover-image.3595d08e.jpg",
+    "static/media/food-for-you.745d09c2.png": "/professional-portfolio/static/media/food-for-you.745d09c2.png",
+    "static/media/index.css": "/professional-portfolio/static/media/navimage.54a9bee5.jpg",
+    "static/media/run-buddy.bdadad02.png": "/professional-portfolio/static/media/run-buddy.bdadad02.png",
+    "static/media/scheduler.ab907cc0.jpeg": "/professional-portfolio/static/media/scheduler.ab907cc0.jpeg",
+    "static/media/weatherdash.ee3af1a7.jpg": "/professional-portfolio/static/media/weatherdash.ee3af1a7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f48865a.js",
     "static/js/2.8090b405.chunk.js",
-    "static/css/main.89c4ba8d.chunk.css",
-    "static/js/main.5fa662d1.chunk.js"
+    "static/css/main.a41c0133.chunk.css",
+    "static/js/main.ade65720.chunk.js"
   ]
 }
